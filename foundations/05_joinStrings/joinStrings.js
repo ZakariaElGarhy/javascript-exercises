@@ -1,16 +1,22 @@
-/*
- First name: Carlos
- Last name: Stevenson
- This year: 1965
- Birth year: 1947
 
- The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
-*/
+ // First name: Carlos
+ // Last name: Stevenson
+ // This year: 1965
+ // Birth year: 1947
+
+ // The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
+
 
 // Add your code right below, good luck!
+let first_name = "carlos";
+let last_name = "stevenson";
+let this_year = 1965;
+let birth_yea = 1947;
 
-
-
+let full_name = `${first_name} ${last_name}`;
+let age = 1965 - 1947
+age = age.isString()
+let greeting = `Hello! My name is ${Full_name} and I am ${age} years old.`
 
 
 // Do not change this
